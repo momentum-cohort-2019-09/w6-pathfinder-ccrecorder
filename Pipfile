@@ -5,12 +5,15 @@ name = "pypi"
 
 [packages]
 pillow = "*"
+pytest = "*"
+numpy = "*"
 
 [dev-packages]
 yapf = "*"
 prospector = "*"
 pytest = "*"
 mypy = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"
